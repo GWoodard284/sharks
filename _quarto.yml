@@ -3,6 +3,15 @@ project:
 
 website:
   title: "Shark Attacks"
+  navbar:
+    left:
+      - text: "Map"
+        href: map.qmd
+      - text: "Trends"
+        href: trends.qmd
+
+execute:
+  echo: false
 
 format:
   html:
